@@ -3,4 +3,3 @@ function convert(value) {
 }
 // console.log(convert(3000));
 
-module.exports = convert;
