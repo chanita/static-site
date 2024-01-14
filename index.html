@@ -7,17 +7,13 @@
 <p id="demo"></p>
 <input type="text" name="yes" />
 <script>
-const  x = 8;
-// Here x is 10
-  alert('yes');
-
-{  
-const x = 2;
-// Here x is 2
+function callToGetOrder(customerName, menu) {
+    // menu -> "อเมริกาโน่", "ลาเต้"
+    //console.log();
+    document.getElementById("display").innerHTML = menu + " ของคุณ " + customerName + " ได้แล้วค่ะ";
 }
 
-// Here x is 10
-document.getElementById("demo").innerHTML = "x is " + x;
+callToGetOrder("Air", "อเมริกาโน่");
 </script>
 
 </body>
